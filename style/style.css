@@ -1,0 +1,129 @@
+:root{
+  p, h1, h2{
+    font-family: "Open Sans", sans-serif;
+  }
+
+  img{
+    border-radius: 28px;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  width: 1120px;
+  margin: 80px auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#trip, #lover-story{
+  font-weight: bold;
+  color: #E1624F;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+#container-location h1{
+  color: #1B1B1B;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#subtitle{
+  font-style: italic;
+  color: #333333;
+  text-align: center;
+  margin-top: 24px;
+}
+
+#subtitle2{
+  font-style: normal;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 65px;
+}
+
+#line{
+  width: 100%;
+  border: solid #D9D9D9 1px ;
+  margin: 40px 0 64px 0;
+}
+
+#container-history h2{
+  margin-bottom: 8px;
+}
+
+#title-history{
+  color: #1B1B1B;
+}
+
+#text-history{
+  color: #333333;
+  margin-bottom: 64px;
+}
+
+#container-temple1 h2, #container-temple2 h2, #container-parque h2{
+  margin-top: 20px;
+  color: #1B1B1B;
+  margin-bottom: 4px;
+}
+
+#text-temple1{
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+#strong-txt{
+  color: #0C51A7;
+  margin-bottom: 48px;
+}
+
+.item{
+  font-weight: bold;
+}
+
+.casais{
+  color: #591B98;
+}
+
+.familias{
+  color: #E5245E;
+}
+
+.orcamento{
+  color: #E95E10;
+}
+
+footer{
+  text-align: center;
+}
+
+
+@media (max-width: 1130px){  
+  section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #container{
+    width: 100%;
+  }
+
+  main{
+    padding: 15px;
+    width: auto;
+  } 
+
+  #subtitle2 #line footer{
+    width: auto;
+  }
+}
